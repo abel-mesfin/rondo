@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'c485980d10b87f74b5c390f0fd1a4788d626f06e',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'c485980d10b87f74b5c390f0fd1a4788d626f06e',
+            'dev_requirement' => false,
+        ),
+        'sendgrid/php-http-client' => array(
+            'pretty_version' => '3.13.0',
+            'version' => '3.13.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sendgrid/php-http-client',
+            'aliases' => array(),
+            'reference' => '35862113b879274c7014e09681ac279a186665f1',
+            'dev_requirement' => false,
+        ),
+        'sendgrid/sendgrid' => array(
+            'pretty_version' => '7.9.0',
+            'version' => '7.9.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sendgrid/sendgrid',
+            'aliases' => array(),
+            'reference' => 'ce5d4707191183dd08949f6e7d08a3a73f3bca05',
+            'dev_requirement' => false,
+        ),
+        'sendgrid/sendgrid-php' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'starkbank/ecdsa' => array(
+            'pretty_version' => '0.0.4',
+            'version' => '0.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../starkbank/ecdsa',
+            'aliases' => array(),
+            'reference' => '9369d35ed9019321adb4eb9fd3be21357d527c74',
+            'dev_requirement' => false,
+        ),
+    ),
+);
